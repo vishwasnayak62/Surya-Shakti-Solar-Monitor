@@ -47,6 +47,8 @@ Surya-Shakti helps users:
 ## Live Demo
 https://appetize.io/app/b_f5rit4bkudmlny5uvr3is4574i?device=pixel7&osVersion=13.0&toolbar=true
 
+---
+
 # 📂 Project Structure
 
 ```bash
