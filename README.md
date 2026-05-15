@@ -1,28 +1,84 @@
-# Surya-Shakti Solar Monitor ☀️
+# ☀️ Surya-Shakti Solar Monitor
 
-Surya-Shakti is an Android application developed using Kotlin, Jetpack Compose, and RoomDB for monitoring solar energy generation and consumption.
+An Android application developed using GenAI concepts to help users monitor and analyze solar energy generation and consumption in smart homes.
 
-## Features
-- Visual Energy Budget Dashboard
-- Circular Solar vs Grid Progress Indicator
-- Weather-Based Energy Simulation
-- Smart Solar Suggestions
-- Savings Calculation
-- CO₂ Reduction Tracking
-- Grid Usage Monitoring
-- Persistent RoomDB Storage
-- History Screen with Saved Logs
-- Dynamic Greeting Based on Time
+The application provides users with insights into their daily solar power usage, electricity savings, grid dependency, and smart energy suggestions based on weather conditions.
 
-## Tech Stack
-- Kotlin
-- Jetpack Compose
-- RoomDB
-- Navigation Compose
-- Material 3
+---
 
-## Live Demo
-https://appetize.io/app/b_f5rit4bkudmlny5uvr3is4574i?device=pixel7&osVersion=13.0&toolbar=true
+# 📌 Problem Statement
 
-## Author
-Vishwas Nayak
+Many households in rural and semi-urban areas are installing rooftop solar panels. However, users often do not understand how much energy they are generating versus consuming.
+
+Without a simple monitoring tool, users cannot optimize electricity usage effectively.
+
+Surya-Shakti helps users:
+- Track solar generation and energy consumption
+- Monitor savings and environmental impact
+- Get smart suggestions for appliance usage
+- Understand solar vs grid dependency
+
+---
+
+# 🚀 Features
+
+- ☀️ Solar Energy Generation Tracking
+- ⚡ Electricity Consumption Monitoring
+- 📊 Solar vs Grid Circular Progress Dashboard
+- 💰 Daily Electricity Savings Calculation
+- 🌱 CO₂ Reduction Monitoring
+- 🌤 Weather-based Smart Suggestions
+- 🔋 Grid Status Detection
+- 📝 Add Daily Solar Data
+- 📱 Modern Dark Theme UI
+
+---
+
+# 🛠 Tech Stack
+
+- Android Studio
+- Java / Kotlin
+- XML UI Design
+- Room Database
+- Material UI Components
+
+---
+
+# 📂 Project Structure
+
+```bash
+Surya-Shakti/
+│
+├── app/
+│
+├── src/
+│   ├── androidTest/
+│   │
+│   └── main/
+│       ├── java/com/example/suryashakti/
+│       │
+│       ├── data/
+│       │   ├── SolarDao.kt
+│       │   ├── SolarDatabase.kt
+│       │   └── SolarLog.kt
+│       │
+│       ├── navigation/
+│       │   └── AppNavigation.kt
+│       │
+│       ├── ui/theme/
+│       │   ├── Color.kt
+│       │   ├── Theme.kt
+│       │   └── Type.kt
+│       │
+│       ├── components/
+│       │   └── DashboardCard.kt
+│       │
+│       ├── screens/
+│       │   ├── AddDataScreen.kt
+│       │   ├── DashboardScreen.kt
+│       │   └── HistoryScreen.kt
+│       │
+│       └── MainActivity.kt
+│
+└── README.md
+```
