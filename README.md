@@ -37,8 +37,8 @@ Surya-Shakti helps users:
 # 🛠 Tech Stack
 
 - Android Studio
-- Java / Kotlin
-- XML UI Design
+- Kotlin
+- Jetpack Compose
 - Room Database
 - Material UI Components
 
